@@ -1,4 +1,3 @@
-README
 MLは、機械学習の基礎学習を証明するコードです。pandasのデータ処理、matplotlibでデータの視覚化、NumPyの学習データ分割、scikit-learnで機械学習の基礎である線形関数を学習した機械学習の基礎を詰め込んだ汎用型機械学習コードです。学習の理解を深めるためのコメントアウトやcsvファイル読み込みや複数のモデル評価など今後の汎用性を考慮したコード設計を目指しました。
 
 ## ✨ 主な機能
@@ -17,19 +16,23 @@ MLは、機械学習の基礎学習を証明するコードです。pandasのデ
     git clone <https://github.com/kmtkzy1379/portfolio2-ML.git>
     cd portfolio2-ML
     ```
+
 2. **仮想環境の作成とアクティベート**
     ```bash
     python -m venv evenv
     evenv\Scripts\activate
     ```
+
 3. **依存関係のインストール**
     ```bash
     pip install -r requirements.txt
     ```
+
 7. **アプリケーションの実行**  
       ```bash
       python app/model_training.py
       ```
+
 ## 🔧 技術スタック
 - **データの読み込み、操作、前処理**: Pandas
 - **高速な数値計算、特に多次元配列の操作。PandasのDataFrameからscikit-learnが要求するデータ形式への変換**: NumPy
