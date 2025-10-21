@@ -1,4 +1,4 @@
-MLは、機械学習の基礎学習を証明するコードです。pandasのデータ処理、matplotlibでデータの視覚化、NumPyの学習データ分割、scikit-learnで機械学習の基礎である線形関数を学習した機械学習の基礎を詰め込んだ汎用型機械学習コードです。学習の理解を深めるためのコメントアウトやcsvファイル読み込みや複数のモデル評価など今後の汎用性を考慮したコード設計を目指しました。
+MLは、機械学習の基礎学習を証明するためのコードです。pandasのデータ処理、matplotlibでデータの視覚化、NumPyの学習データ分割、scikit-learnで機械学習の基礎である線形関数を実装した機械学習の基礎を詰め込んだ汎用型機械学習コードです。学習の理解を深めるためのコメントアウトやcsvファイル読み込みや複数のモデル評価など今後の汎用性を考慮したコード設計を目指しました。
 
 ## ✨ 主な機能
 - **データハンドリング**: Pandas を使用してデータを機械学習に適した形式に整形します。
@@ -13,7 +13,7 @@ MLは、機械学習の基礎学習を証明するコードです。pandasのデ
 ## 🚀 セットアップ方法
 1. **リポジトリのクローン**
     ```bash
-    git　clone<https://github.com/kmtkzy1379/portfolio2-ML.git>
+        git clone<https://github.com/kmtkzy1379/portfolio2-ML.git>
     cd portfolio2-ML
     ```
 
@@ -35,9 +35,13 @@ MLは、機械学習の基礎学習を証明するコードです。pandasのデ
 
 ## 🔧 技術スタック
 - **データの読み込み、操作、前処理**: Pandas
-- **高速な数値計算、特に多次元配列の操作。PandasのDataFrameからscikit-learnが要求するデータ形式への変換**: NumPy
-- **モデルの構築（LinearRegression）、データ分割（train_test_split）、性能評価（mean_squared_error, r2_score）など、機械学習の主要な機能**: Scikit-learn
-- **データの可視化。Matplotlibは基本的なグラフ描画、Seabornはそれをベースに、統計的なグラフを生成**: Matplotlib & Seaborn
+DataFrameとして読み込みデータ整形をします。
+- **高速な数値計算、特に多次元配列の操作**: NumPy
+操作PandasのDataFrameからscikit-learnが要求するデータ形式への変換します。
+- **モデルの構築**: Scikit-learn
+（LinearRegression）、データ分割（train_test_split）、性能評価（mean_squared_error, r2_score）など、機械学習の主要な機能を担います。
+- **データの可視化**: Matplotlib & Seaborn
+学習データ、学習結果をグラフ上に表示します。
 
 ## 🤝 貢献
 このプロジェクトは学習・ポートフォリオ目的で作成されています。改善提案やバグ報告は歓迎します。
