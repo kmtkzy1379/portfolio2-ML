@@ -13,7 +13,7 @@ MLは、機械学習の基礎学習を証明するためのコードです。pan
 ## 🚀 セットアップ方法
 1. **リポジトリのクローン**
     ```bash
-        git clone<https://github.com/kmtkzy1379/portfolio2-ML.git>
+    git clone<https://github.com/kmtkzy1379/portfolio2-ML.git>
     cd portfolio2-ML
     ```
 
