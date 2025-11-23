@@ -19,7 +19,7 @@ MLは、機械学習の基礎学習を証明するためのコードです。pan
 
 2. **仮想環境の作成とアクティベート**
     ```bash
-    python -m venv evenv
+    python -m venv venv
     evenv\Scripts\activate
     ```
 
